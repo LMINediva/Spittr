@@ -10,7 +10,8 @@
 </head>
 <body>
 <h1><s:message code="spittr.welcome"/></h1>
-<a href="<c:url value="/"/>">足迹博客</a>
-<a href="<c:url value="https://www.baidu.com"/>">注册</a>
+<s:url value="/spitter/register" var="registerUrl"/>
+<a href="<c:url value="/"/>">足迹微博</a> |
+<a href="${registerUrl}">注册</a>
 </body>
 </html>
